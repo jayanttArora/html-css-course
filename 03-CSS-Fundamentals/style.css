@@ -83,6 +83,29 @@ li:nth-child(2) {
   color: red;
 }
 
+// Misconception this won't work!
 article p:last-child {
   color: red;
 } */
+
+/* Styling Links - LVHA */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  /* color: #777; */
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: #444;
+  font-style: italic;
+}
