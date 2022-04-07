@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
   /* position: relative; */
 }
@@ -203,7 +203,7 @@ h2::after {
   display: inline-block;
   padding: 5px 10px;
   position: absolute;
-  right: -25px;
+  right: -17.5px;
   top: -15px;
 }
 
@@ -254,8 +254,23 @@ nav {
 
 .clearfix::after {
   clear: both;
-  /* To create a pseudo-element it is mandatory to add content. */
   content: "";
-  /* "clear" methos works only on block-level elements. */
   display: block;
+}
+
+article {
+  background-color: red;
+  width: 825px;
+  float: left;
+}
+
+aside {
+  background-color: blue;
+  width: 300px;
+  float: right;
+}
+
+footer {
+  background-color: green;
+  clear: both;
 }
