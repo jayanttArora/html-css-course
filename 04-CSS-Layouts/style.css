@@ -254,4 +254,8 @@ nav {
 
 .clearfix::after {
   clear: both;
+  /* To create a pseudo-element it is mandatory to add content. */
+  content: "";
+  /* "clear" methos works only on block-level elements. */
+  display: block;
 }
