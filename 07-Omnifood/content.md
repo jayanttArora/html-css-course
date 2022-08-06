@@ -121,11 +121,13 @@ Social profiles: instagram, facebook, twitter [links to them not available yet]
 Create account
 Sign in
 iOS app
-Android app
+Android
+
 About Omnifood
 For Business
 Cooking partners
 Careers
+
 Recipe directory
 Help center
 Privacy & terms
