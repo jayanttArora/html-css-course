@@ -30,7 +30,9 @@
     #fdf2e9
     #fae5d3
 
-- Shades: #cf711f
+- Shades: 
+    #cf711f
+    #eb984e
 
 - Accents: 
 
@@ -39,6 +41,7 @@
 
 
 --- 03 SHADOWS
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 --- 04 BORDER-RADIUS
 
